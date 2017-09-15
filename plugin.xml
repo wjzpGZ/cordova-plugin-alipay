@@ -34,6 +34,13 @@
                 </dict>
             </array>
         </config-file>
+
+        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+           <array>
+                <string>alipay</string>
+            </array>
+        </config-file>
+
         <source-file src="src/ios/CDVAlipay.m" />
         <header-file src="src/ios/CDVAlipay.h" />
         <framework src="SystemConfiguration.framework" />
